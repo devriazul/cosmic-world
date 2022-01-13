@@ -46,3 +46,8 @@ nav {
     font-weight: 600;
     padding: 15px 10px;
 }
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

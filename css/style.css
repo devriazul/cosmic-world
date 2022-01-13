@@ -12,7 +12,7 @@
 }
 
 header {
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url('../images/images/cloud.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,4 +50,16 @@ nav {
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 80px);
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-right img {
+    width: 100%;
 }

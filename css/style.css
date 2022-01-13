@@ -11,6 +11,30 @@
     padding: 0 30px;
 }
 
+.highlight {
+    color: #FF008E;
+}
+
+.primary-button {
+    padding: 15px 20px;
+    outline: 0;
+    border: 0;
+    background-image: linear-gradient(#c7257e, #FF008E);
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #a31161;
+    position: relative;
+    top: 0;
+}
+
+.primary-button:active {
+    top: 5px;
+    box-shadow: 0 2px 0 #a31161;
+}
+
 header {
     /* height: 100vh; */
     background-image: url('../images/images/cloud.png');
@@ -58,6 +82,24 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.banner-left h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.banner-left p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .banner-right img {
